@@ -5,7 +5,6 @@ import numpy as np
 import random
 from io import BytesIO
 from fpdf import FPDF
-import pyttsx3
 
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="🧠 Focus Visualizer+", layout="wide")
@@ -57,16 +56,6 @@ def export_pdf(name, focus_level, zone, reflection):
     buffer.seek(0)
     return buffer
 
-# --- VOICE FEEDBACK ---
-def speak(text):
-    try:
-        engine = pyttsx3.init()
-        engine.setProperty('rate', 150)
-        engine.say(text)
-        engine.runAndWait()
-    except:
-        st.warning("Voice feedback unavailable on this device.")
-
 # --- UI ---
 st.title("🧠 Focus Visualizer+ (BCI-Inspired)")
 st.write("A brain-simulated tool to explore focus, mood, and mini-BCI concepts 💫")
@@ -117,9 +106,6 @@ with tab1:
         col2.markdown("👁️‍🗨️")
     else:
         col3.markdown("👁️‍🗨️")
-
-    if st.button("📣 Speak This Zone"):
-        speak(f"Your current zone is {zone} focus. {quotes[zone]}")
 
     if st.button("📈 Record Focus"):
         st.session_state.focus_history.append(focus_level)
