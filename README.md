@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ### 3. Run the App
 ```bash
-streamlit run focus_visualizer.py
+python -m streamlit run focus_visualizer.py
 ```
 
 ### 💡 Simulated EEG States
