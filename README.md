@@ -37,19 +37,16 @@ A cozy, brain-simulated tool built with Streamlit to explore focus, brainwave pa
 ```bash
 git clone https://github.com/your-username/focus-visualizer.git
 cd focus-visualizer
-
----
+```
 ### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
-
----
+```
 
 ### 3. Run the App
 ```bash
 streamlit run focus_visualizer.py
-
----
+```
 
 ### 💡 Simulated EEG States
 Mode	Description
