@@ -66,3 +66,7 @@ Muse Headband (Consumer EEG)
 Feel free to fork, open issues, or suggest ideas for making this more research-ready or real EEG-compatible someday. 🌼
 
 This tool is meant for learning, mental health awareness, and BCI education — not for medical use.
+
+
+### DEPLOYED APP:
+https://focusvisualizer.streamlit.app/
