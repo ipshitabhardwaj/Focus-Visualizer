@@ -1,4 +1,5 @@
 # 🧠 Focus Visualizer+ (BCI-Inspired)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 A cozy, brain-simulated tool built with Streamlit to explore focus, brainwave patterns, and mindfulness — inspired by Brain-Computer Interface (BCI) systems but completely software-based. 🌿
 
